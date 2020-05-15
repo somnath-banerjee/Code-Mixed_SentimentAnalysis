@@ -1,4 +1,4 @@
-##Code-Mixed Sentiment Analysis
+#Code-Mixed Sentiment Analysis
 ***
 This work describes the participation of **LIMSI\_UPV** team in **SemEval-2020 Task 9: Sentiment Analysis for Code-Mixed Social Media Text**.
 The proposed approach competed in SentiMix Hindi-English subtask, that addresses the problem of predicting the sentiment of a given Hindi-English code-mixed tweet. 
@@ -10,7 +10,7 @@ If you use this code please cite our paper:
 
 
 ***
-####Repository structure
+- Repository structure
 	+ code
 		+ config.py
 		+ utility.py
