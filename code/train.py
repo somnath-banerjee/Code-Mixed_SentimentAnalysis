@@ -18,7 +18,12 @@ if __name__=='__main__':
     parser.add_argument('--lr', type=float, default=0.25, help='initial learning rate')
     parser.add_argument('--hidden_size', type=int, default=10, help='dropout ratio')
     parser.add_argument('--embed_size', type=int, default=50, help='embed size')
-    parser.add_argument('--track', type=str, default='Rnn_track.txt', help='track record')
+    parser.add_argument('--track', type=str, default='track.log', help='track file')
+    parser.add_argument('--train', type=str, default='../data/train.tsv', help='training file')
+    parser.add_argument('--valid', type=str, default='../data/valid.tsv', help='validation file')
+    parser.add_argument('--test', type=str, default='../data/test.tsv', help='test file')
+    parser.add_argument('--embedding', type=int, default=50, help='embed size')
+    
     args = parser.parse_args()
     
     config = Config()
@@ -29,11 +34,11 @@ if __name__=='__main__':
     config.hidden_size = args.hidden_size
     config.embed_size = args.embed_size
     track_file = args.track
-    train_file = '../data/cleaned_train14k.tsv'
-    val_file = '../data/cleaned_dev.tsv'
-    test_file = ''
+    train_file = args.train
+    val_file = args.valid
+    test_file = args.test
 
-    w2v_file = '../data/skipgram.50d.txt'
+    w2v_file = args.embedding #'../data/skipgram.50d.txt'
     
     #Track file
     W = open(track_file,'w')
