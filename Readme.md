@@ -16,4 +16,6 @@ If you use this code please cite our paper:
 		+ utility.py
 		+ model.py
 		+ train.py
+	+ embeddings
+	+ data
 	+ paper.pdf
