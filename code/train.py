@@ -11,7 +11,7 @@ import torch
 import argparse
 
 if __name__=='__main__':
-    parser = argparse.ArgumentParser(description='Fasttext SEMEval model')
+    parser = argparse.ArgumentParser(description='SEMEval Code-Mixed Sentiment Analysis model')
     parser.add_argument('--batch_size', type=int, default=128, help='batch size')
     parser.add_argument('--epoch', type=int, default=10, help='maximum epoch number')
     parser.add_argument('--max_sen_len', type=int, default=20, help='maximum length')
