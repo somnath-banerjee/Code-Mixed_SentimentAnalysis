@@ -17,4 +17,4 @@ If you use this code please cite our paper:
 		+ train.py
 	+ embeddings
 	+ data
-	+ paper.pdf
+	+ Paper.pdf
