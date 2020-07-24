@@ -6,7 +6,7 @@ We propose **Recurrent Convolutional Neural Network** that combines both the rec
 
 If you use this code please cite our paper:
 
-Somnath Banerjee, Sahar Ghannay, Sophie Rosset, Anne Vilnat and Paolo Rosso. "LIMSI\_UPV at SemEval-2020 Task 9: Recurrent Convolutional Neural Network for Code-mixed Sentiment Analysis". *Proceedings of the 14th International Workshop on Semantic Evaluation (SemEval-2020)*, Association for Computational Linguistics, 2020, December, Barcelona, Spain.
+*Somnath Banerjee, Sahar Ghannay, Sophie Rosset, Anne Vilnat and Paolo Rosso*. "LIMSI\_UPV at SemEval-2020 Task 9: Recurrent Convolutional Neural Network for Code-mixed Sentiment Analysis". *Proceedings of the 14th International Workshop on Semantic Evaluation (SemEval-2020)*, Association for Computational Linguistics, 2020, December, Barcelona, Spain.
 ***
 
 - Repository structure
